@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>390</y>
+      <w>300</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>FinanceManager
+--
+- userManager:UserManager
+- LoggedUser: loggedUser
+- selectOptionFromMainMenu():void
+- selectOptionFromUserMenu(): void
+--
++ userRegistration():void
++ UserLogin():void
++ UserLogout():void
++ addNewIncome():void
++ addNewExpense():void
++ showBalance():void
++ selectOptionFromMainMenu():void
++ selectOptionFromUserMenu(): void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>290</y>
+      <w>280</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>UserManager
+--
+- users: vector&lt;User&gt;
+- fileWithUsers:FileWithUsers
+- setIdOfNewUser(): int
+- getNewUserData(): User
+- isLoginExist:bool
+--
++ userRegistration() void
++ UserLogin():int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>680</y>
+      <w>310</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>LogedUser
+--
+- FileWithExpenses: fileWithExpenses
+- FileWithIncomes: fileWitthIncomes
+- USERID: int
+- lastIncomeId: int
+- lastExpenseId: int
+- enterTurnoverData: Turnover
+- showItem: void
+- chooseDate: string
+- chooseOptionFromTurnoverMenu: char
+- showTurnoversFromActualMonth: float
+- showTurnoversFromPreviousMonth: float
+- showTurnoversFromSelectionPeroid: float
+- showBalance: void
+--
++ addNewIncome():void
++ addNewExpense():void
++ showTurnovers(): void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>420</y>
+      <w>340</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>_AuxiliaryMethods_
+--
+_+ convertIntToString():strig_
+_+ convertStringToInt():int_
+_+ convertStringToFloat():string_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>280</y>
+      <w>300</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>FileWithUsers
+--
++ ifFileExist(): bool
++ addUserToFile():void
++ loadUserFromFile():vector&lt;User&gt;
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>0</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>User
+--
+- id:int
+- name: string
+- surname: string 
+- login:string
+- password:string
+--
+- setId():void
+- setLogin():void
+- setPassword():void
+- downloadId():int
+- downloadLogin():string
+- downloadPassword():string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>660</y>
+      <w>330</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>FileWithExpenses
+--
+-fileName:string
+--
++ downloadExpensesFromFile():vector &lt;Turnover&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>880</y>
+      <w>330</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>FileWithIncoms
+--
+-fileName:string
+--
++ addItemToFile()
++ loadIncomeFromFile():vector&lt;Turnover&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1130</x>
+      <y>680</y>
+      <w>270</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>FileWithTurnovers
+--
++ addItemToFile(): void
++ ifFileExist(): bool
++ getTurnoverIdFromFile(): int
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>650</y>
+      <w>170</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+bg=black</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;150.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>310</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>720</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>780</y>
+      <w>130</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;110.0;130.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>720</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>930</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>460</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>490</y>
+      <w>150</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;210.0;70.0;210.0;70.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>140</y>
+      <w>130</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>140</y>
+      <w>130</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>110.0;140.0;110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>360</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>1040</y>
+      <w>290</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Turnover
+--
+- date:string
+- description: string
+- turnover: float
+--
++ getDate():string
++ setDate(): void
++ setDescription(): void
++ getDescription(): string
++ getTurnover(): float
++ setTurnover(): void
++ setDateConvertedToNumber(): void
++ getDateConvertedToNumber(): int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>1020</y>
+      <w>330</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>DateManager
+--
+_- checkIfYearCorect(): bool_
+_- checkIfMonthCorect(): bool_
+_- IfYearIsLeap(): bool_
+_- getNumberOfDays(): int_
+_- checkIfDayCorect(): bool_
+_- ifDateFormatIsCorect(): bool_
+_- enterYear(): int_
+--
+_+ divideDateToDayMonthYear(): vector &lt;string&gt;_
+_+ getDateFromSystem(): string_
+_+ changeDateToNumber(): int_
+_+ enterDate(): string_
+_+ ifDateCorect(): bool_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>980</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>980</y>
+      <w>190</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;170.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>740</y>
+      <w>170</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>150.0;10.0;70.0;10.0;70.0;320.0;10.0;320.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>910</y>
+      <w>170</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>150.0;10.0;70.0;10.0;70.0;320.0;10.0;320.0</additional_attributes>
+  </element>
+</diagram>
