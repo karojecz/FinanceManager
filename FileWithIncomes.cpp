@@ -6,7 +6,6 @@ void FileWithIncomes::addItemToFile(Turnover income)
   CMarkup xml;
     //xml.Load("incomes.xml");
     bool fileExist= xml.Load("incomes.xml");
-    cout<<"to file"<<endl;
     if (!fileExist)
     {
         xml.SetDoc("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n");

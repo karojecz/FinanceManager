@@ -9,6 +9,8 @@ string LogedUser::chooseDate()
     {
         cout<<"Save turnover with today's date (press 'y') or other (press 'n')  ?"<<endl;
         cin>>mark;
+        cin.clear();
+        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
         if (mark=='y')
         {
@@ -35,11 +37,14 @@ Turnover LogedUser::enterTurnoverData(int USERID, int lastTurnoverId)
     cout<<"ENTER TURNOVER DATA"<<endl;
 
     cout<<"Enter amount"<<endl;
-    cin>>amount;
+    amount=AuxiliaryMethods::enterAmount();
     turnover.setAmount(amount);
 
     cout<<"Enter description"<<endl;
-    cin>>description;
+    cin.clear();
+    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    getline(cin,description);
+    //cin>>description;
     turnover.setDescription(description);
 
     date=chooseDate();

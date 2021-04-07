@@ -85,7 +85,7 @@
 	<iostream>
 	"Turnover.h"
 
-1617648919 source:c:\users\karol1\desktop\finanse program glowny — kopia\auxiliarymethods .cpp
+1617817260 source:c:\users\karol1\desktop\finanse program glowny — kopia\auxiliarymethods .cpp
 	"AuxiliaryMethods.h"
 
 1303074412 source:c:\users\karol1\desktop\finanse program glowny — kopia\markup.cpp
@@ -102,7 +102,7 @@
 	<string>
 	<afx.h>
 
-1617648919 c:\users\karol1\desktop\finanse program glowny — kopia\auxiliarymethods.h
+1617816917 c:\users\karol1\desktop\finanse program glowny — kopia\auxiliarymethods.h
 	<iostream>
 	<string>
 	<sstream>
@@ -122,7 +122,7 @@
 	<algorithm>
 	"DateManager.h"
 
-1617656031 source:c:\users\karol1\desktop\finanse program glowny — kopia\logeduser.cpp
+1617819538 source:c:\users\karol1\desktop\finanse program glowny — kopia\logeduser.cpp
 	"LogedUser.h"
 
 1615751935 c:\users\karol1\desktop\finanse program glowny — kopia\expense.h
@@ -148,7 +148,7 @@
 	"Turnover.h"
 	<vector>
 
-1617628119 source:c:\users\karol1\desktop\finanse program glowny — kopia\filewithincomes.cpp
+1617816917 source:c:\users\karol1\desktop\finanse program glowny — kopia\filewithincomes.cpp
 	"fileWithIncomes.h"
 
 1616240796 c:\users\karol1\desktop\finanse program glowny — kopia\filewithincomes.h
@@ -173,7 +173,7 @@
 1617558969 source:c:\users\karol1\desktop\finanse program glowny — kopia\datemanager.cpp
 	"DateManager.h"
 
-1617655354 c:\users\karol1\desktop\finanse program glowny — kopia\datemanager.h
+1617814617 c:\users\karol1\desktop\finanse program glowny — kopia\datemanager.h
 	<iostream>
 	<vector>
 	<cstdlib>
@@ -184,18 +184,18 @@
 	"AuxiliaryMethods.h"
 	<algorithm>
 
-1617645320 source:c:\users\karol\desktop\finanse program glowny — kopia\auxiliarymethods .cpp
+1617817260 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\auxiliarymethods .cpp
 	"AuxiliaryMethods.h"
 
-1617691665 c:\users\karol\desktop\finanse program glowny — kopia\auxiliarymethods.h
+1617816917 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\auxiliarymethods.h
 	<iostream>
 	<string>
 	<sstream>
 
-1617555370 source:c:\users\karol\desktop\finanse program glowny — kopia\datemanager.cpp
+1617558969 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\datemanager.cpp
 	"DateManager.h"
 
-1617651756 c:\users\karol\desktop\finanse program glowny — kopia\datemanager.h
+1617814617 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\datemanager.h
 	<iostream>
 	<vector>
 	<cstdlib>
@@ -206,10 +206,10 @@
 	"AuxiliaryMethods.h"
 	<algorithm>
 
-1617623810 source:c:\users\karol\desktop\finanse program glowny — kopia\filewithexpense.cpp
+1617627408 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\filewithexpense.cpp
 	"FileWithExpense.h"
 
-1617459462 c:\users\karol\desktop\finanse program glowny — kopia\filewithexpense.h
+1617463061 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\filewithexpense.h
 	<iostream>
 	"markup.h"
 	"turnover.h"
@@ -217,29 +217,29 @@
 	<vector>
 	"AuxiliaryMethods.h"
 
-1303070812 c:\users\karol\desktop\finanse program glowny — kopia\markup.h
+1303074412 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\markup.h
 	<stdlib.h>
 	<string.h>
 	<string>
 	<afx.h>
 
-1617617278 c:\users\karol\desktop\finanse program glowny — kopia\turnover.h
+1617620877 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\turnover.h
 	<iostream>
 	<vector>
 	<sstream>
 	"AuxiliaryMethods.h"
 	"DateManager.h"
 
-1616952460 c:\users\karol\desktop\finanse program glowny — kopia\filewithturnovers.h
+1616956059 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\filewithturnovers.h
 	<iostream>
 	"markup.h"
 	"Turnover.h"
 	<vector>
 
-1617624520 source:c:\users\karol\desktop\finanse program glowny — kopia\filewithincomes.cpp
+1617816917 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\filewithincomes.cpp
 	"fileWithIncomes.h"
 
-1616240798 c:\users\karol\desktop\finanse program glowny — kopia\filewithincomes.h
+1616240796 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\filewithincomes.h
 	<iostream>
 	"markup.h"
 	"Turnover.h"
@@ -247,40 +247,40 @@
 	"AuxiliaryMethods.h"
 	<vector>
 
-1616952876 source:c:\users\karol\desktop\finanse program glowny — kopia\filewithturnovers.cpp
+1616956475 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\filewithturnovers.cpp
 	"fileWithTurnovers.h"
 
-1617632446 source:c:\users\karol\desktop\finanse program glowny — kopia\filewithusers.cpp
+1617636044 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\filewithusers.cpp
 	"FileWithUsers.h"
 
-1612733618 c:\users\karol\desktop\finanse program glowny — kopia\filewithusers.h
+1612733616 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\filewithusers.h
 	<iostream>
 	"user.h"
 	<vector>
 	"markup.h"
 	"AuxiliaryMethods.h"
 
-1612720818 c:\users\karol\desktop\finanse program glowny — kopia\user.h
+1612720817 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\user.h
 	<iostream>
 	"User.h"
 	<vector>
 
-1617538228 source:c:\users\karol\desktop\finanse program glowny — kopia\finansemanager.cpp
+1617541826 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\finansemanager.cpp
 	"FinanseManager.h"
 
-1617538228 c:\users\karol\desktop\finanse program glowny — kopia\finansemanager.h
+1617541826 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\finansemanager.h
 	<iostream>
 	"UserManager.h"
 	"LogedUser.h"
 
-1617634944 c:\users\karol\desktop\finanse program glowny — kopia\usermanager.h
+1617638543 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\usermanager.h
 	<iostream>
 	"User.h"
 	"FileWithUsers.h"
 	<vector>
 	<windows.h>
 
-1617652662 c:\users\karol\desktop\finanse program glowny — kopia\logeduser.h
+1617656260 c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\logeduser.h
 	<iostream>
 	<vector>
 	"FileWithExpense.h"
@@ -295,10 +295,10 @@
 	<algorithm>
 	"DateManager.h"
 
-1617652432 source:c:\users\karol\desktop\finanse program glowny — kopia\logeduser.cpp
+1617819538 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\logeduser.cpp
 	"LogedUser.h"
 
-1617651294 source:c:\users\karol\desktop\finanse program glowny — kopia\main.cpp
+1617654893 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\main.cpp
 	<iostream>
 	"FileWithUsers.h"
 	"FinanseManager.h"
@@ -306,7 +306,7 @@
 	"markup.h"
 	"Turnover.h"
 
-1303070812 source:c:\users\karol\desktop\finanse program glowny — kopia\markup.cpp
+1303074412 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\markup.cpp
 	<stdio.h>
 	"Markup.h"
 	<errno.h>
@@ -314,12 +314,12 @@
 	<windows.h>
 	<mbstring.h>
 
-1616853030 source:c:\users\karol\desktop\finanse program glowny — kopia\turnover.cpp
+1616853029 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\turnover.cpp
 	"Turnover.h"
 
-1612720818 source:c:\users\karol\desktop\finanse program glowny — kopia\user.cpp
+1612720817 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\user.cpp
 	"user.h"
 
-1617632066 source:c:\users\karol\desktop\finanse program glowny — kopia\usermanager.cpp
+1617635664 source:c:\users\karol1\desktop\finanse program glowny — kopia\financemanager\usermanager.cpp
 	"UserManager.h"
 
